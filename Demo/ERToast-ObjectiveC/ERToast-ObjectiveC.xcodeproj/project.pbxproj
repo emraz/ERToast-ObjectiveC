@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		455B1EE821009553005BDC3D /* ERToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 455B1EE621009553005BDC3D /* ERToast.m */; };
+		455B1EEB2100973E005BDC3D /* UIColor+Hexadecimal.m in Sources */ = {isa = PBXBuildFile; fileRef = 455B1EE92100973D005BDC3D /* UIColor+Hexadecimal.m */; };
 		458361DA2083225500FD05C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 458361D92083225500FD05C8 /* AppDelegate.m */; };
 		458361DD2083225500FD05C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 458361DC2083225500FD05C8 /* ViewController.m */; };
 		458361E02083225500FD05C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 458361DE2083225500FD05C8 /* Main.storyboard */; };
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		455B1EE621009553005BDC3D /* ERToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ERToast.m; sourceTree = "<group>"; };
+		455B1EE721009553005BDC3D /* ERToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ERToast.h; sourceTree = "<group>"; };
+		455B1EE92100973D005BDC3D /* UIColor+Hexadecimal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hexadecimal.m"; sourceTree = "<group>"; };
+		455B1EEA2100973E005BDC3D /* UIColor+Hexadecimal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hexadecimal.h"; sourceTree = "<group>"; };
 		458361D52083225500FD05C8 /* ERToast-ObjectiveC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ERToast-ObjectiveC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		458361D82083225500FD05C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		458361D92083225500FD05C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -78,6 +84,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		455B1EE521009553005BDC3D /* ERToast */ = {
+			isa = PBXGroup;
+			children = (
+				455B1EEA2100973E005BDC3D /* UIColor+Hexadecimal.h */,
+				455B1EE92100973D005BDC3D /* UIColor+Hexadecimal.m */,
+				455B1EE621009553005BDC3D /* ERToast.m */,
+				455B1EE721009553005BDC3D /* ERToast.h */,
+			);
+			name = ERToast;
+			path = ../../../ERToast;
+			sourceTree = "<group>";
+		};
 		458361CC2083225500FD05C8 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +119,7 @@
 		458361D72083225500FD05C8 /* ERToast-ObjectiveC */ = {
 			isa = PBXGroup;
 			children = (
+				455B1EE521009553005BDC3D /* ERToast */,
 				458361D82083225500FD05C8 /* AppDelegate.h */,
 				458361D92083225500FD05C8 /* AppDelegate.m */,
 				458361DB2083225500FD05C8 /* ViewController.h */,
@@ -264,6 +283,8 @@
 			files = (
 				458361DD2083225500FD05C8 /* ViewController.m in Sources */,
 				458361E82083225700FD05C8 /* main.m in Sources */,
+				455B1EEB2100973E005BDC3D /* UIColor+Hexadecimal.m in Sources */,
+				455B1EE821009553005BDC3D /* ERToast.m in Sources */,
 				458361DA2083225500FD05C8 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
